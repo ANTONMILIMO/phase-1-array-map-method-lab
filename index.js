@@ -17,6 +17,6 @@ const titleCased = () => {
     .map(item => item.charAt(0).toUpperCase() + item.slice(1)) // capitalize the first character of each word
     .join(" ")
   );
-}
+};
 
-console.log(titleCased())
+console.log(titleCased());
